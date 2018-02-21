@@ -78,6 +78,7 @@
     <Content Include="help.html" />
     <Content Include="index.html" />
     <Content Include="registration.html" />
+    <Content Include="styles\app.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

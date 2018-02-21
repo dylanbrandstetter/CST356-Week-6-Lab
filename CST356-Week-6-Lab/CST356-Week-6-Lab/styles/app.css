@@ -1,0 +1,58 @@
+﻿body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: aliceblue;
+    color: black;
+}
+
+header {
+    background-color: mistyrose;
+    color: darkcyan;
+    height: 40px;
+    padding-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+nav {
+    background-color: mistyrose;
+    color: darkblue;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+nav div {
+    background-color: #ffffe0;
+    height: 30px;
+    width: 120px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+nav div:hover {
+    background-color: #ffffb3;
+}
+
+nav div a {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.MainText {
+    color: darkslateblue;
+    font-style: italic;
+}
+
+.FormElement {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+table {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
