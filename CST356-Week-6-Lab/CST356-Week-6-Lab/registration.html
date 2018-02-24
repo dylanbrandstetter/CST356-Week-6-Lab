@@ -2,60 +2,70 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="styles/app.css" />
+        
         <meta charset="utf-8" />
         <title>Registration</title>
     </head>
 
     <body>
-        <header>Registration</header>
+        <header>
+            <h2>Registration</h2>
+        </header>
 
         <nav>
             <div><a href="index.html">Home</a></div>
             <div><a href="help.html">Help</a></div>
         </nav>
         
-        <p class="FormElement">
-            <label for="FirstName">First name:</label>
-            <input id="FirstName" type="text" maxlength="10" />
-        </p>
-        <p class="FormElement">
-            <label for="LastName">Last name:</label>
-            <input id="LastName" type="text" maxlength="15" />
-        </p>
-        <p class="FormElement">
-            <label for="Age">Age:</label>
-            <input id="Age" type="number" />
-        </p>
-        <p class="FormElement">
-            <label>Year in school:</label>
-                
-            <br />
-            <label for="Year1Button">1</label>
-            <input id="Year1Button" type="radio" name="YearInSchool" />
+        <form>
+            <p class="FormElement">
+                <label for="FirstName">First name:</label>
+                <input id="FirstName" type="text" maxlength="10" />
+            </p>
+            <p class="FormElement">
+                <label for="LastName">Last name:</label>
+                <input id="LastName" type="text" maxlength="15" />
+            </p>
+            <p class="FormElement">
+                <label for="Age">Age:</label>
+                <input id="Age" type="number" />
+            </p>
+            <p class="FormElement">
+                <label>Year in school:</label>
 
-            <br />
-            <label for="Year2Button">2</label>
-            <input id="Year2Button" type="radio" name="YearInSchool" />
+                <br />
+                <label for="Year1Button">1</label>
+                <input id="Year1Button" type="radio" name="YearInSchool" />
 
-            <br />
-            <label for="Year3Button">3</label>
-            <input id="Year3Button" type="radio" name="YearInSchool" />
+                <br />
+                <label for="Year2Button">2</label>
+                <input id="Year2Button" type="radio" name="YearInSchool" />
 
-            <br />
-            <label for="Year4Button">4</label>
-            <input id="Year4Button" type="radio" name="YearInSchool" />
+                <br />
+                <label for="Year3Button">3</label>
+                <input id="Year3Button" type="radio" name="YearInSchool" />
 
-            <br />
-            <label for="MoreThan4Button">>4</label>
-            <input id="MoreThan4Button" type="radio" name="YearInSchool" />
-        </p>
-        <p class="FormElement">
-            <button id="RegisterButton">Register</button>
-        </p>
+                <br />
+                <label for="Year4Button">4</label>
+                <input id="Year4Button" type="radio" name="YearInSchool" />
+
+                <br />
+                <label for="MoreThan4Button">>4</label>
+                <input id="MoreThan4Button" type="radio" name="YearInSchool" />
+            </p>
+            <p class="FormElement">
+                <input type="button" id="RegisterButton" value="Register" onclick="displayInfo()" />
+            </p>
+        </form>
+
+        <b id="SummaryHead"></b>
+        <p id="SummaryText"></p>
 
         <footer>
             Copyright Dylan Brandstetter 2018<br />
             Some text
         </footer>
+
+        <script type="text/javascript" src="scripts/app.js"></script>
     </body>
 </html>
